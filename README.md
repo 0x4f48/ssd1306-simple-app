@@ -8,10 +8,16 @@
 # Build
 - Enable/Disable proper LCD size from ssd1306_i2c.h. (SSD1306_128_64, SSD1306_128_32, or SSD1306_96_16)
 - Set correct I2C address from ssd1306_i2c.h.
-- Run "make"
+- Run "make" from the top
 
-# Run
-- ssd1306 /dev/YOUR-I2C-DEV-NODE
+# Examples
+
+## demo
+- Dispay simple text on a LCD.
+
+## showip
+- Monitor link up/down and display current IPv4 address on a LCD.
+
 
 
 # References
